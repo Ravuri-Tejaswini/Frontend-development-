@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Feedback Form</title>
+    </head>
+    <body>
+        <h2 align="center">Feedback Form</h2>
+        <div style="width:500px;border:1px solid black; margin:20px auto; padding:10px">
+            <form>
+                <label>Name: </label><br>
+                <input type="text" name="name" placeholder="Enter your name" required><br><br>
+
+                <label>Email: </label><br>
+                <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label> Contact Number: </label><br>
+                <input type="tel" name="phone" placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}"><br><br>
+
+                <label>Gender :</label><br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+                <br><br>
+
+                <label>Rate Our Service:</label><br>
+                <input type="radio" name="rating" value="Excellent" >Excellent
+                <input type="radio" name="rating" vale="Good">Good
+                <input type="radio" name="rating" value="Average">Average
+                <input type="radio" name="rating" value="Poor" > Poor
+                <br><br>
+
+                <label>Which services did you use?</label><br>
+                <input type="checkbox" name="service" value="Website"> Website
+                <input type="checkbox" name="service" value="Mobile App">Mobile App 
+                <input type="checkbox" name="service" value="Customer support"> Customer support 
+                <br><br>
+
+                <label>Suggetions: </label><br> 
+                <textarea name="suggestions" rows="5" cols="40" placeholder="Write your feedback here"></textarea> 
+                <br><br>
+
+                <label>Would you recommend us?</label> <br>
+                <select name="recommend"> 
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>Maybe</option>
+                </select><br><br>
+<input type="submit" value="Submit Feedback">
+<input type="reset" value="Clear">
+            </form>
+
+        </div>
+    </body>
+</htm
